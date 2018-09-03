@@ -19,6 +19,7 @@ public class Book {
     }
 
     public Book(String title, String author) {
+
         this(title, author, "UNKNOWN");
     }
 
@@ -44,14 +45,17 @@ public class Book {
 //    }
 
     public String getTitle() {
+
         return title;
     }
 
     public String getAuthor() {
+
         return author;
     }
 
     public double getPrice() {
+
         return price;
     }
 
